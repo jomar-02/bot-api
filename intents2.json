@@ -1,0 +1,178 @@
+{
+    "intents": [
+        {
+            "tag": "introduction",
+            "patterns": [
+                "Who are you?",
+                "What's your name?",
+                "Introduce yourself",
+                "Tell me about yourself",
+                "What do you do?",
+                "What is your purpose?",
+                "Describe yourself"
+            ],
+            "responses": [
+                "Hi there! I'm SalesBot, here to assist you with all your product and food inquiries. How can I help you today?"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good day",
+                "Hey there",
+                "Hello there",
+                "Howdy",
+                "What's up",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi bot"
+            ],
+            "responses": [
+                "Hey there! Welcome to SalesBot. How can I assist you with finding the perfect product or meal?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Catch you later",
+                "Take care",
+                "Farewell",
+                "Until next time",
+                "Bye bye",
+                "See you soon"
+            ],
+            "responses": [
+                "Goodbye! Have a great day and feel free to return anytime for more product or food inquiries.",
+                "See you later! If you have any more questions, don't hesitate to ask.",
+                "Bye! Happy shopping and dining!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Appreciate it",
+                "Thanks a bunch",
+                "Thank you very much",
+                "Many thanks",
+                "Thanks for your help"
+            ],
+            "responses": [
+                "You're welcome! Let me know if there's anything else I can assist you with.",
+                "Glad I could help! If you need further assistance, just ask.",
+                "Anytime! Happy shopping and dining!"
+            ]
+        },
+        {
+            "tag": "okay_response",
+            "patterns": [
+                "Okay",
+                "Alright",
+                "Got it",
+                "Understood",
+                "Sure",
+                "yeah",
+                "Yes",
+                "Yeah",
+                "Yep",
+                "Yup",
+                "Okay, thanks"
+            ],
+            "responses": [
+                "Great! Let me know if there's anything specific you're looking for.",
+                "Excellent! Feel free to ask if you need more information.",
+                "Perfect! If you have any questions, feel free to reach out."
+            ]
+        },
+        {
+            "tag": "product_categories",
+            "patterns": [
+                "What types of products do you offer?",
+                "Can you list your product categories?",
+                "What kind of products do you sell?",
+                "I'm interested in your product range. What categories do you have?",
+                "What are some popular product categories?"
+            ],
+            "responses": [
+                "We offer a wide range of products, including electronics, clothing, home goods, beauty products, and more.",
+                "Our product categories include electronics, clothing, home goods, beauty products, and much more.",
+                "Popular product categories include electronics, clothing, home goods, beauty products, and accessories."
+            ]
+        },
+        {
+            "tag": "food_menu",
+            "patterns": [
+                "Can I see your food menu?",
+                "What dishes do you offer?",
+                "Do you have a menu?",
+                "I'd like to see your food options",
+                "What's on the menu?"
+            ],
+            "responses": [
+                "Sure! Here's our menu: [Insert link to menu or provide menu details]",
+                "Certainly! Our menu includes a variety of delicious dishes. Would you like to see it?",
+                "Absolutely! Let me share our mouthwatering menu with you."
+            ]
+        },
+        {
+            "tag": "special_offers",
+            "patterns": [
+                "Do you have any special offers?",
+                "Are there any discounts available?",
+                "Can I get a deal on my purchase?",
+                "What promotions are currently running?",
+                "Are there any sales happening?"
+            ],
+            "responses": [
+                "Yes, we have special offers available! Check out our promotions page or ask me for more details.",
+                "Certainly! We regularly offer discounts and promotions. Let me provide you with the latest deals.",
+                "Absolutely! We have exciting offers waiting for you. Let me tell you about our current promotions."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "How can I check my order status?",
+                "Can you help me track my order?",
+                "Where's my order?",
+                "I'm curious about my order status",
+                "What's the status of my delivery?"
+            ],
+            "responses": [
+                "You can easily check your order status by logging into your account or contacting our customer support team.",
+                "Sure! Let me assist you in tracking your order. Can you provide me with your order number?",
+                "No problem! To check your order status, please provide me with your order details."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay using PayPal?",
+                "Do you accept Cash on Delivery?",
+                "How can I make a payment?",
+                "What are the available payment options?",
+                "I want to purchase something. How can I pay?",
+                "Are there any payment gateways available?",
+                "How do I pay for services?"
+            ],
+            "responses": [
+                "We offer multiple payment methods for your convenience: PayPal, credit/debit card, and Cash on Delivery (COD).",
+                "You can pay for your purchases using PayPal, credit/debit card, or opt for Cash on Delivery (COD) for cash payments upon delivery.",
+                "For your payment convenience, we accept PayPal, credit/debit card, and Cash on Delivery (COD). You can choose the option that suits you best."
+            ]
+        }
+        
+    ]
+}
