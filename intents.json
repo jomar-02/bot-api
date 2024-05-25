@@ -40,24 +40,6 @@
             ]
         },
         {
-            "tag": "developer",
-            "patterns": [
-                "Who developed this app?",
-                "Who is the developer of this app?",
-                "Who created this app?",
-                "Who built this application?",
-                "Who made this JavaScript Quickstart?",
-                "I'm curious about the developer of this app",
-                "Can you tell me about the creator of this app?",
-                "Who is behind this JavaScript Quickstart project?"
-            ],
-            "responses": [
-                "This app was developed by Radgie Lopez, a 3rd Year IT student at EVSU-CC.",
-                "The developer of this app is Radgie Lopez, a 3rd Year IT student at EVSU-CC.",
-                "This app was created by Radgie Lopez, a 3rd Year IT student at EVSU-CC."
-            ]
-        },
-        {
             "tag": "goodbye",
             "patterns": [
                 "Bye",
@@ -132,7 +114,7 @@
             "responses": [
                 "Sure! You can find great self-reflection tutorials on platforms like Diary.com and Psychology Today.",
                 "Absolutely! Check out 'The Reflective Journal' and 'Self-Discovery: A Guided Journal' for some excellent reads.",
-                "Yes! Diary.com and Udemy offer fantastic self-reflection resources for beginners and advanced learners alike. Also, don't forget to visit our web version of the app for more resources: [Insert Web Version Link]."
+                "Yes! Diary.com and Udemy offer fantastic self-reflection resources for beginners and advanced learners alike. Also, don't forget to visit our web version of the app for more resources."
             ]
         },
         {
