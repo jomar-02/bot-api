@@ -1,0 +1,286 @@
+{
+    "intents": [
+        {
+            "tag": "introduction",
+            "patterns": [
+                "Who are you?",
+                "What's your name?",
+                "Introduce yourself",
+                "Tell me about yourself",
+                "What do you do?",
+                "What is your purpose?",
+                "Describe yourself"
+            ],
+            "responses": [
+                "Hi there! I'm Event Planner Bot, designed to assist you with planning your events. Feel free to ask me anything!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good day",
+                "Hey there",
+                "Hello there",
+                "Howdy",
+                "What's up",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi bot"
+            ],
+            "responses": [
+                "Hey there! Welcome to Event Planner. What kind of event are you planning today?",
+                "Hello! How can I assist you with planning your event?",
+                "Hi there! How can I help you with event planning?",
+                "Hi! Welcome to Event Planner. What can I do for you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Catch you later",
+                "Take care",
+                "Farewell",
+                "Until next time",
+                "Bye bye",
+                "See you soon"
+            ],
+            "responses": [
+                "Goodbye! Feel free to return anytime for more event planning assistance.",
+                "See you later! Have a great time planning your event.",
+                "Bye! Have a wonderful day planning your event."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Appreciate it",
+                "Thanks a bunch",
+                "Thank you very much",
+                "Many thanks",
+                "Thanks for your help"
+            ],
+            "responses": [
+                "You're welcome! Happy event planning!",
+                "Glad I could help! Enjoy planning your event!",
+                "Anytime! Keep organizing those events!"
+            ]
+        },
+        {
+            "tag": "okay_response",
+            "patterns": [
+                "Okay",
+                "Alright",
+                "Got it",
+                "Understood",
+                "Sure",
+                "yeah",
+                "Yes",
+                "Yeah",
+                "Yep",
+                "Yup",
+                "Okay, thanks"
+            ],
+            "responses": [
+                "Great! If you have any more questions about event planning, feel free to ask.",
+                "Excellent! Let me know if there's anything else I can assist you with in planning your event.",
+                "Perfect! Don't hesitate to reach out if you need further assistance with your event organization."
+            ]
+        },
+        {
+            "tag": "resources",
+            "patterns": [
+                "Where can I find event planning resources?",
+                "Do you have any event planning tutorials?",
+                "Can you recommend event planning books?",
+                "Any good online event planning courses?",
+                "Where can I learn event planning online?",
+                "What are some good event planning learning resources?",
+                "Can you suggest resources to improve my event planning skills?",
+                "I want to learn event planning. Where should I start?",
+                "How can I become proficient in event planning?"
+            ],
+            "responses": [
+                "Sure! You can find great event planning tutorials on platforms like Eventbrite and EventMB.",
+                "Absolutely! Check out 'The Event Planning Blueprint' and 'Event Planning: The Ultimate Guide' for some excellent reads.",
+                "Yes! Eventbrite and Udemy offer fantastic event planning resources for beginners and advanced learners alike. Also, don't forget to visit our web version of the app for more resources: [Insert Web Version Link]."
+            ]
+        },
+        {
+            "tag": "event_types",
+            "patterns": [
+                "What types of events can I plan?",
+                "Which events can I organize with this app?",
+                "Can you list the event types supported by this app?",
+                "What kind of events does this app support?",
+                "I'm planning an event. What types of events does this app cater to?",
+                "What are some popular event types for planning?"
+            ],
+            "responses": [
+                "You can plan various types of events with this app, including weddings, conferences, birthdays, corporate events, and more.",
+                "This app supports a wide range of events, such as weddings, conferences, parties, fundraisers, and networking events.",
+                "Popular event types for planning include weddings, corporate events, conferences, parties, and trade shows."
+            ]
+        },
+        {
+            "tag": "budget",
+            "patterns": [
+                "How can I manage my event budget?",
+                "Can you help with event budgeting?",
+                "What tools are available for event budget management?",
+                "Do you have any tips for budgeting an event?",
+                "I need assistance with budgeting my event",
+                "What are some budgeting strategies for event planning?"
+            ],
+            "responses": [
+                "Managing your event budget is crucial. This app provides tools for budget tracking, expense categorization, and cost estimation to help you stay within your budget.",
+                "Event budgeting made easy! Use this app's features to track expenses, allocate funds, and monitor your budget in real-time.",
+                "Budgeting for your event doesn't have to be stressful. With this app, you can set budget goals, track expenses, and make informed financial decisions."
+            ]
+        },
+        {
+            "tag": "vendors",
+            "patterns": [
+                "How do I find vendors for my event?",
+                "Can you recommend event vendors?",
+                "Where can I find reliable event vendors?",
+                "What are some tips for selecting event vendors?",
+                "I need help with hiring vendors for my event",
+                "How to choose event vendors?"
+            ],
+            "responses": [
+                "Finding the right vendors for your event is essential. This app offers a vendor directory where you can search for and connect with reliable vendors in your area.",
+                "Looking for event vendors? Search through our extensive vendor directory to find photographers, caterers, decorators, and more for your event.",
+                "Finding trustworthy vendors is a breeze with this app. Explore our vendor directory to discover top-rated professionals for your event needs."
+            ]
+        },
+        {
+            "tag": "developer",
+            "patterns": [
+                "Who developed this app?",
+                "Who is the developer of this app?",
+                "Who created this app?",
+                "Who built this application?",
+                "Who made this JavaScript Quickstart?",
+                "I'm curious about the developer of this app",
+                "Can you tell me about the creator of this app?",
+                "Who is behind this JavaScript Quickstart project?"
+            ],
+            "responses": [
+                "This app was developed by Jerson A. Aballa, a 3rd Year BSIT student at EVSU-CC.",
+                "The developer of this app is Jerson A. Aballa, a 3rd Year BSIT student at EVSU-CC.",
+                "This app was created by Jerson A. Aballa, a 3rd Year BSIT student at EVSU-CC."
+            ]
+        },
+        {
+            "tag": "venues",
+            "patterns": [
+                "How do I choose a venue for my event?",
+                "Can you help with venue selection?",
+                "Where can I find event venues?",
+                "What factors should I consider when selecting a venue?",
+                "I'm looking for a venue for my event. Any suggestions?",
+                "How to find the best event venue?"
+            ],
+            "responses": [
+                "Choosing the right venue is crucial for a successful event. Use this app's venue search feature to find and compare venues based on location, capacity, amenities, and more.",
+                "With this app's venue selection tools, you can browse through a variety of options, compare prices, and book the perfect venue for your event.",
+                "Finding the perfect venue is easy with this app. Explore our venue database to discover unique spaces, compare options, and book your ideal venue hassle-free."
+            ]
+        },
+        {
+            "tag": "guest_list",
+            "patterns": [
+                "How do I manage my event guest list?",
+                "Can you help with creating a guest list?",
+                "What tools are available for guest list management?",
+                "Do you have any tips for managing event invitations?",
+                "I need assistance with my event guest list",
+                "How to create an event guest list?"
+            ],
+            "responses": [
+                "Managing your event guest list is simple with this app's guest list management tools. Easily create, send, and track invitations, RSVPs, and attendee information.",
+                "Event guest list management made easy! Use this app to organize your guest list, send invitations, and track RSVPs effortlessly.",
+                "Streamline your event guest list with this app's powerful guest management features. From sending invitations to tracking RSVPs, we've got you covered."
+            ]
+        },
+        {
+            "tag": "reminders",
+            "patterns": [
+                "Can I set reminders for my event?",
+                "How do I schedule event reminders?",
+                "Can you remind me about my upcoming event?",
+                "I need help setting up event reminders",
+                "How to set event reminders?"
+            ],
+            "responses": [
+                "Absolutely! With this app, you can set up customizable reminders for important event tasks, deadlines, and milestones to stay organized and on track.",
+                "Never miss a beat with event reminders! Use this app to schedule timely reminders for tasks, deadlines, and appointments leading up to your event.",
+                "Stay on top of your event planning timeline with customizable reminders. This app allows you to set up reminders for key tasks, appointments, and deadlines."
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "How can I provide feedback about this app?",
+                "Can I give feedback on this app?",
+                "I have some suggestions for this app",
+                "Who should I contact to give feedback about this app?",
+                "How to provide feedback?"
+            ],
+            "responses": [
+                "We'd love to hear your feedback! You can share your suggestions, comments, and ideas directly through the app's feedback feature. Your input helps us improve our services.",
+                "Your feedback is invaluable to us! Feel free to share your thoughts, suggestions, and comments on how we can enhance your experience with this app.",
+                "We're always looking to improve! Share your feedback, suggestions, and ideas directly with us through the app's feedback portal. We appreciate your input!"
+            ]
+        },
+        {
+            "tag": "thanks_feedback",
+            "patterns": [
+                "Thanks for the help",
+                "Thanks for listening",
+                "Appreciate your assistance",
+                "Thank you for your support",
+                "Thanks for your feedback"
+            ],
+            "responses": [
+                "You're welcome! If you need further assistance or have any more feedback, don't hesitate to reach out.",
+                "Glad I could assist you! Feel free to return anytime if you have more questions or feedback.",
+                "Anytime! If you have additional questions or feedback in the future, don't hesitate to contact us."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay using PayPal?",
+                "Do you accept Cash on Delivery?",
+                "How can I make a payment?",
+                "What are the available payment options?",
+                "I want to purchase something. How can I pay?",
+                "Are there any payment gateways available?",
+                "How do I pay for services?"
+            ],
+            "responses": [
+                "We offer multiple payment methods for your convenience: PayPal and Cash on Delivery (COD). You can securely pay through PayPal or choose the COD option for cash payment upon delivery.",
+                "You can pay for your purchases using PayPal or opt for Cash on Delivery (COD) for cash payments upon delivery of your order.",
+                "For your payment convenience, we accept PayPal and Cash on Delivery (COD). You can securely pay online with PayPal or select the COD option for cash payment upon delivery.",
+                "We provide two payment options: PayPal and Cash on Delivery (COD). Choose PayPal for secure online transactions or opt for COD to pay in cash upon delivery of your order.",
+                "You have the flexibility to choose between PayPal and Cash on Delivery (COD) for your payments. Use PayPal for secure online transactions or select COD to pay in cash upon delivery.",
+                "We support two payment methods: PayPal and Cash on Delivery (COD). You can make secure online payments via PayPal or choose COD for cash payment upon delivery.",
+                "When making a purchase, you can select from two payment methods: PayPal and Cash on Delivery (COD). Use PayPal for online payments or choose COD to pay in cash upon delivery."
+            ]
+        }
+    ]
+}

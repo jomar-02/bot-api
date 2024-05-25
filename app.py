@@ -9,6 +9,7 @@ CORS(app)
 @app.get("/")
 def index_get():
     return jsonify({"message": "Test API"})
+    
    
 @app.post("/predict")   
 def predict():
