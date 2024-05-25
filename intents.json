@@ -166,6 +166,25 @@
             "responses": [
                 "Start your journey of self-discovery and reflection with our Diary App. Download now and begin documenting your thoughts and memories with ease."
             ]
+        },
+        {
+            "tag": "review",
+            "patterns": [
+                "Can you review this query?",
+                "Please review this query",
+                "Can you check this query?",
+                "Is this query accurate?"
+            ],
+            "responses": [
+                "Sure, let me review that for you."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I'm not sure I understand. Could you try rephrasing or ask another question?"
+            ]
         }
     ]
 }
