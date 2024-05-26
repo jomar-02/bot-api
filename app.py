@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from data_preprocessing import get_response
-from train import train_model
+# from train import train_model
 
 app = Flask(__name__)
 CORS(app)
@@ -19,5 +19,5 @@ def predict():
     return jsonify(message)
 
 if __name__ == "__main__":
-    train_model()
+    # train_model()
     app.run()

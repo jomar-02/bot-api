@@ -167,18 +167,22 @@
                 "Start your journey of self-discovery and reflection with our Diary App. Download now and begin documenting your thoughts and memories with ease."
             ]
         },
+
         {
-            "tag": "review",
+            "tag": "developer",
             "patterns": [
-                "Can you review this query?",
-                "Please review this query",
-                "Can you check this query?",
-                "Is this query accurate?"
+                "Who developed this app?",
+                "Who created this application?",
+                "Who made this app?",
+                "Who is responsible for this Diary App?",
+                "Who is the mind behind this app?",
+                "Who is the brains behind this application?"
             ],
             "responses": [
-                "Sure, let me review that for you."
+                "The developer of our Diary App is Radgie B. Lopez, a dedicated BSIT student who crafted this platform for self-reflection and expression."
             ]
-        },
+        },        
+       
         {
             "tag": "default",
             "patterns": [],
